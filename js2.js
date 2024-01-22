@@ -120,4 +120,39 @@ for (var i = 0; i < family.length; i++) {
     "</p></div>";
 }
 
-console.log(html);
+// console.log(html);
+
+// While loop - use when dont know how many time you want to run the loop.
+
+// var i = 0;
+// while (i < 10) {
+//   console.log(i);
+//   i++;
+// }
+
+// do while loop - for when you dont know how many times the loop will have to run. but it should run at least once
+
+// var favCols = ["red", "blue", "white"];
+// var i = 0;
+// do {
+//   console.log(i, favCols[i]);
+//   i++;
+// } while (i < favCols.length);
+
+// for (var i = 0; i < favCols.length; i++) {
+//   console.log(i, favCols[i]);
+// }
+
+//  Perform do and do-while = While is when you only want things to be done if something is the case and you dont know how many times these things will need to be done..  do while is when you're attempting to change your environment and you wan to perform actions until it has been changed sufficiently.
+
+// Below is a for loop that will run in reverse order.
+// var favCols = ["red", "blue", "white"];
+// for (var i = favCols.length; i > 0; i--) {
+//   console.log(i);
+// }
+
+// below loop allows you to count how often you count down in the loop i.e. 3 in this example
+for (var i = 20; i > 0; ) {
+  console.log(i);
+  i = i - 3;
+}
